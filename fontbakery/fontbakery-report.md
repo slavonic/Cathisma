@@ -111,7 +111,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ѩ, Ѭ, ҁ, ꙁ, Ѩ, ѭ, ѫ, ꙃ, Ꙃ, Ҁ, Ѫ, Ꙁ</td>
+<td align="left">The following base characters are missing from the font: Ҁ, Ѩ, ҁ, Ѫ, ꙁ, Ѭ, ѭ, ꙃ, ѫ, ѩ, Ꙃ, Ꙁ</td>
 <td align="left">cu_Cyrl (Church Slavic)</td>
 </tr>
 </tbody>
@@ -1219,9 +1219,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
 <li>U+033E COMBINING VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+2027 HYPHENATION POINT: not included in any glyphset definition</li>
 <li>U+2E2F VERTICAL TILDE: not included in any glyphset definition</li>
