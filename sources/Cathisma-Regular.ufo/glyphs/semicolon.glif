@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semicolon" format="2">
+  <advance width="129"/>
+  <unicode hex="003B"/>
+  <outline>
+    <contour>
+      <point x="18" y="159" type="curve" smooth="yes"/>
+      <point x="18" y="181"/>
+      <point x="30" y="209"/>
+      <point x="52" y="209" type="curve" smooth="yes"/>
+      <point x="94" y="209"/>
+      <point x="106" y="170"/>
+      <point x="106" y="135" type="curve" smooth="yes"/>
+      <point x="106" y="67"/>
+      <point x="72" y="12"/>
+      <point x="27" y="-30" type="curve" smooth="yes"/>
+      <point x="23" y="-30"/>
+      <point x="21" y="-27"/>
+      <point x="19" y="-24" type="curve" smooth="yes"/>
+      <point x="55" y="15"/>
+      <point x="58" y="35"/>
+      <point x="61" y="77" type="curve"/>
+      <point x="46" y="111"/>
+      <point x="18" y="126"/>
+    </contour>
+    <contour>
+      <point x="18" y="507" type="curve" smooth="yes"/>
+      <point x="18" y="556"/>
+      <point x="36" y="596"/>
+      <point x="62" y="596" type="curve" smooth="yes"/>
+      <point x="88" y="596"/>
+      <point x="106" y="556"/>
+      <point x="106" y="507" type="curve" smooth="yes"/>
+      <point x="106" y="458"/>
+      <point x="88" y="418"/>
+      <point x="62" y="418" type="curve" smooth="yes"/>
+      <point x="36" y="418"/>
+      <point x="18" y="458"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>418</integer>
+            <key>width</key>
+            <integer>178</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>18</integer>
+            <key>width</key>
+            <integer>88</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni033E" format="2">
+  <advance width="1"/>
+  <unicode hex="033E"/>
+  <anchor x="-120" y="839" name="_Yerik"/>
+  <anchor x="-119" y="1018" name="Stack"/>
+  <anchor x="-119" y="839" name="_Stack"/>
+  <outline>
+    <contour>
+      <point x="-53" y="878" type="line"/>
+      <point x="-120" y="843" type="line"/>
+      <point x="-126" y="854" type="line"/>
+      <point x="-93" y="870" type="line"/>
+      <point x="-113" y="938" type="line"/>
+      <point x="-49" y="971" type="line"/>
+      <point x="-43" y="960" type="line"/>
+      <point x="-72" y="944" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>843</integer>
+            <key>width</key>
+            <integer>128</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-126</integer>
+            <key>width</key>
+            <integer>83</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
