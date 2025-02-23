@@ -406,5 +406,31 @@
     <string>uniE_005.glif</string>
     <key>uni2DEE</key>
     <string>uni2D_E_E_.glif</string>
+    <key>uni202F</key>
+    <string>uni202F_.glif</string>
+    <key>uni2002</key>
+    <string>uni2002.glif</string>
+    <key>uni2003</key>
+    <string>uni2003.glif</string>
+    <key>uni2004</key>
+    <string>uni2004.glif</string>
+    <key>uni2005</key>
+    <string>uni2005.glif</string>
+    <key>uni2006</key>
+    <string>uni2006.glif</string>
+    <key>uni2007</key>
+    <string>uni2007.glif</string>
+    <key>uni2008</key>
+    <string>uni2008.glif</string>
+    <key>uni2009</key>
+    <string>uni2009.glif</string>
+    <key>uni200A</key>
+    <string>uni200A_.glif</string>
+    <key>uni200B</key>
+    <string>uni200B_.glif</string>
+    <key>uni200C</key>
+    <string>uni200C_.glif</string>
+    <key>uni200D</key>
+    <string>uni200D_.glif</string>
   </dict>
 </plist>
