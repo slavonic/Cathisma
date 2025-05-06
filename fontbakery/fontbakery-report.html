@@ -273,11 +273,11 @@ you're checking.</p>
     <tr>
         <td>0</td>
         <td>0</td>
-        <td>7</td>
+        <td>6</td>
         <td>13</td>
         <td>109</td>
         <td>7</td>
-        <td>100</td>
+        <td>101</td>
     </tr>
     <tr>
         <td>0%</td>
@@ -286,7 +286,7 @@ you're checking.</p>
         <td>6%</td>
         <td>46%</td>
         <td>3%</td>
-        <td>42%</td>
+        <td>43%</td>
     </tr>
 </table>
         
@@ -311,13 +311,15 @@ immediately.
 <p>(but other kinds of bug reports and/or feature requests
     are also always welcome, of course!)</p>
 
-<p>FontBakery version: 0.13.2</p>
+<p>FontBakery version: 0.13.3</p>
         
             
                 <h2>OpenType Specification Checks</h2>
 <span class='section__emoji'>
     ⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩
 </span>
+
+    
 
     
 
@@ -467,6 +469,8 @@ acutecomb (U+0301), gravecomb (U+0300), uni0311 (U+0311), uni033E (U+033E), uni0
 
     
 
+    
+
             
         
             
@@ -474,61 +478,13 @@ acutecomb (U+0301), gravecomb (U+0300), uni0311 (U+0311), uni033E (U+033E), uni0
             
                 <h2>Universal Profile Checks</h2>
 <span class='section__emoji'>
-    🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️
+    🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️
 </span>
 
     
 
     
 
-    
-
-    
-    <h3>
-    
-    <div style='color:#88c'>EXPERIMENTAL CHECK - Since 2024/12/28</div>
-    
-    Check base characters have non-zero advance width.
-</h3>
-<div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:base_has_width&gt;</div>
-
-
-
-<div style="background-color:#ee8">
-
-    
-
-</div>
-
-
-    
-        <details>
-            <summary>
-                🔥
-                Cathisma-Regular.ttf
-                
-            </summary>
-            <div>
-                <ul>
-                
-                        <li class='details_item'>
-                            <span class='details_indicator'>
-                            🔥 FAIL
-                            </span>
-
-                            <span class='details_text'>
-                            <p>The following glyphs had zero advance width:
-- uniE005 (U+E005)</p>
-
-                            
-                             [code: zero-width-bases]
-                            
-                            </span>
-                        </li>
-                
-                </ul>
-            </div>
-        </details>
     
 
     
@@ -972,10 +928,6 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
     
 
-    
-
-    
-
             
         
             
@@ -1162,10 +1114,10 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: batak, kaithi, hanunoo, gujarati, kannada, khmer, psalter-pahlavi, tai-viet, devanagari, kharoshthi, manichaean, takri, thaana, myanmar, grantha, mandaic, lao, bengali, yi, oriya, syloti-nagri, sogdian, thai, chakma, new-tai-lue, tifinagh, mahajani, balinese, hatran, modi, duployan, brahmi, khudawadi, sharada, lepcha, telugu, tagbanwa, tai-le, kayah-li, malayalam, sinhala, khojki, bhaiksuki, limbu, tai-tham, saurashtra, nko, siddham, dogra, newa, tagalog, tamil, sundanese, warang-citi, meetei-mayek, tirhuta, gunjala-gondi, pahawh-hmong, hebrew, cham, syriac, buhid, masaram-gondi, avestan, arabic, hanifi-rohingya, rejang, gurmukhi, tibetan, mongolian, phags-pa, zanabazar-square, buginese, javanese</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: batak, kaithi, hanunoo, gujarati, kannada, khmer, psalter-pahlavi, tai-viet, devanagari, kharoshthi, manichaean, takri, thaana, myanmar, grantha, mandaic, lao, bengali, yi, oriya, syloti-nagri, sogdian, thai, chakma, new-tai-lue, tifinagh, mahajani, balinese, modi, duployan, brahmi, khudawadi, sharada, lepcha, telugu, tagbanwa, tai-le, kayah-li, malayalam, sinhala, khojki, bhaiksuki, limbu, tai-tham, saurashtra, nko, siddham, dogra, newa, tagalog, tamil, sundanese, warang-citi, meetei-mayek, tirhuta, gunjala-gondi, pahawh-hmong, hebrew, cham, syriac, old-hungarian, buhid, masaram-gondi, avestan, arabic, hanifi-rohingya, rejang, gurmukhi, tibetan, mongolian, phags-pa, zanabazar-square, buginese, javanese</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: modi, batak, saurashtra, tifinagh, khojki, kharoshthi, myanmar, meetei-mayek, tagbanwa, takri, kayah-li, psalter-pahlavi, gurmukhi, oriya, balinese, malayalam, mandaic, tirhuta, lepcha, gujarati, tai-viet, pahawh-hmong, tibetan, duployan, new-tai-lue, tai-le, mahajani, hatran, hebrew, tai-tham, buhid, hanunoo, rejang, telugu, grantha, yi, khudawadi, manichaean, mongolian, bhaiksuki, hanifi-rohingya, buginese, khmer, avestan, phags-pa, warang-citi, sharada, lao, syriac, nko, tamil, brahmi, sinhala, devanagari, cham, thaana, javanese, sundanese, gunjala-gondi, syloti-nagri, masaram-gondi, chakma, thai, siddham, sogdian, zanabazar-square, tagalog, kaithi, kannada, bengali, limbu, newa, arabic, dogra</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: modi, batak, saurashtra, tifinagh, khojki, kharoshthi, myanmar, meetei-mayek, tagbanwa, takri, kayah-li, psalter-pahlavi, gurmukhi, oriya, balinese, malayalam, mandaic, tirhuta, lepcha, gujarati, tai-viet, pahawh-hmong, tibetan, duployan, new-tai-lue, tai-le, mahajani, hebrew, tai-tham, buhid, hanunoo, old-hungarian, rejang, telugu, grantha, yi, khudawadi, manichaean, mongolian, bhaiksuki, hanifi-rohingya, buginese, khmer, avestan, phags-pa, warang-citi, sharada, lao, syriac, nko, tamil, brahmi, sinhala, devanagari, cham, thaana, javanese, sundanese, gunjala-gondi, syloti-nagri, masaram-gondi, chakma, thai, siddham, sogdian, zanabazar-square, tagalog, kaithi, kannada, bengali, limbu, newa, arabic, dogra</li>
 <li>U+2027 HYPHENATION POINT: not included in any glyphset definition</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, mongolian, yi</li>
 <li>U+2E2F VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+E000 : not included in any glyphset definition</li>
 <li>U+E002 : not included in any glyphset definition</li>
@@ -1260,7 +1212,7 @@ definitions.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ҁ, Ꙁ, ꙃ, ѫ, ꙁ, ҁ, Ѭ, ѭ, ѩ, Ѫ, Ꙃ, Ѩ</td>
+<td align="left">The following base characters are missing from the font: ѫ, Ҁ, Ѭ, ҁ, Ꙁ, Ѫ, Ꙃ, ѩ, Ѩ, ѭ, ꙁ, ꙃ</td>
 <td align="left">cu_Cyrl (Church Slavic)</td>
 </tr>
 </tbody>
